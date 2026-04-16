@@ -1,0 +1,62 @@
+{
+  "news_sources": {
+    "ai_news": {
+      "name": "AI News",
+      "url": "https://ai-news.net",
+      "type": "rss",
+      "rss_url": "https://ai-news.net/feed",
+      "category": "industry"
+    },
+    "mit_technology_review": {
+      "name": "MIT Technology Review AI",
+      "url": "https://technologyreview.com/topic/artificial-intelligence",
+      "type": "rss",
+      "rss_url": "https://technologyreview.com/feed",
+      "category": "research"
+    },
+    "venturebeat_ai": {
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai",
+      "type": "rss",
+      "rss_url": "https://venturebeat.com/feed",
+      "category": "business"
+    },
+    "theverge_ai": {
+      "name": "The Verge AI",
+      "url": "https://theverge.com/ai",
+      "type": "rss",
+      "rss_url": "https://theverge.com/rss/index.xml",
+      "category": "consumer"
+    },
+    "synced_review": {
+      "name": "Synced Review",
+      "url": "https://syncedreview.com",
+      "type": "rss",
+      "rss_url": "https://syncedreview.com/feed",
+      "category": "research"
+    },
+    "reddit_ai": {
+      "name": "Reddit r/artificial",
+      "url": "https://reddit.com/r/artificial",
+      "type": "reddit",
+      "category": "community"
+    },
+    "hackernews": {
+      "name": "Hacker News AI",
+      "url": "https://news.ycombinator.com",
+      "type": "hackernews",
+      "category": "community"
+    },
+    "arxiv": {
+      "name": "arXiv AI Research",
+      "url": "https://arxiv.org",
+      "type": "arxiv",
+      "category": "research"
+    }
+  },
+  "update_interval_minutes": 30,
+  "max_articles_per_source": 50,
+  "database_path": "ai_news.db",
+  "server_port": 5000,
+  "offline_storage_days": 7
+}
